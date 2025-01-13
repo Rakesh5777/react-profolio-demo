@@ -7,9 +7,13 @@ function App() {
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white">
         <div className="container mx-auto px-4 py-20">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Rakesh Reddy Kunda</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">
+            Rakesh Reddy Kunda
+          </h1>
           <h2 className="text-2xl md:text-3xl mb-6">Full Stack Developer</h2>
-          <p className="text-xl opacity-90">Crafting exceptional digital experiences with modern web technologies</p>
+          <p className="text-xl opacity-90">
+            rakesh 5777, bangalore, professional
+          </p>
         </div>
       </div>
 
@@ -19,9 +23,10 @@ function App() {
         <section className="mb-16">
           <h2 className="text-3xl font-bold mb-6">About Me</h2>
           <p className="text-lg text-gray-700 leading-relaxed mb-4">
-            I'm a Full Stack Developer with 3 years of experience in building modern web applications. 
-            Currently working at Samsung Electro Mechanics, I specialize in frontend technologies 
-            with expertise in Angular, React, and Next.js.
+            I'm a Full Stack Developer with 3 years of experience in building
+            modern web applications. Currently working at Samsung Electro
+            Mechanics, I specialize in frontend technologies with expertise in
+            Angular, React, and Next.js.
           </p>
         </section>
 
@@ -67,9 +72,18 @@ function App() {
             <h3 className="text-xl font-semibold">Samsung Electro Mechanics</h3>
             <p className="text-gray-600 mb-4">Full Stack Developer</p>
             <ul className="text-gray-700 list-disc list-inside space-y-2">
-              <li>Developing and maintaining web applications using modern JavaScript frameworks</li>
-              <li>Collaborating with cross-functional teams to deliver high-quality solutions</li>
-              <li>Implementing responsive designs and ensuring cross-browser compatibility</li>
+              <li>
+                Developing and maintaining web applications using modern
+                JavaScript frameworks
+              </li>
+              <li>
+                Collaborating with cross-functional teams to deliver
+                high-quality solutions
+              </li>
+              <li>
+                Implementing responsive designs and ensuring cross-browser
+                compatibility
+              </li>
             </ul>
           </div>
         </section>
@@ -78,13 +92,22 @@ function App() {
         <section>
           <h2 className="text-3xl font-bold mb-6">Get In Touch</h2>
           <div className="flex space-x-6">
-            <a href="#" className="text-gray-700 hover:text-blue-600 transition-colors">
+            <a
+              href="#"
+              className="text-gray-700 hover:text-blue-600 transition-colors"
+            >
               <Github className="w-6 h-6" />
             </a>
-            <a href="#" className="text-gray-700 hover:text-blue-600 transition-colors">
+            <a
+              href="#"
+              className="text-gray-700 hover:text-blue-600 transition-colors"
+            >
               <Linkedin className="w-6 h-6" />
             </a>
-            <a href="#" className="text-gray-700 hover:text-blue-600 transition-colors">
+            <a
+              href="#"
+              className="text-gray-700 hover:text-blue-600 transition-colors"
+            >
               <Mail className="w-6 h-6" />
             </a>
           </div>
